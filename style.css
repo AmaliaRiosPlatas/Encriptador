@@ -1,0 +1,208 @@
+
+
+body{
+    background-color: rgb(27, 27, 27);
+}
+
+header{
+    width: 985px;
+    height: 50px;
+    margin-left: 50px;
+    border: 3px solid rgb(10, 168, 24);
+    border-radius: 25px;
+    background-color: rgb(0,16,41);
+    color: rgb(10, 168, 24);
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Press Start 2P';
+    font-style: italic;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 20px;
+ 
+}
+
+.container{
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    margin-top: 25px;
+    margin-left: 50px;
+ 
+}
+
+.background{
+    position: absolute;
+    display: block;
+    background-color: rgb(147,147,119);
+    border-radius: 25px;
+    width: 1000px;
+    height: 800px;
+    
+}
+
+.texto{
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 95px;
+}
+
+.titulo{
+    color:rgb(10, 168, 24);
+    font-family: 'Dosis', sans-serif;
+    font-family: 'VT323', monospace;
+    font-size: 25px;
+}
+
+.textarea{
+    background-color: rgb(0,16,41);
+    border: none;
+    color: rgb(10, 168, 24);
+    font-family: 'Dosis', sans-serif;
+    font-family: 'VT323', monospace;
+    font-size: 25px;
+
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 680px;
+    height: 60px;
+   
+    left: 75px;
+    top: 600px;
+}
+
+.boton1{
+    gap: 8px;
+
+    width: 250px;
+    height: 60px;
+
+    background:  rgb(0,16,41);
+    border-radius: 10px;
+    border-color:rgb(10, 168, 24);
+    
+    font-size: 28px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'VT323', monospace;
+
+    line-height: 19px;
+    text-align: center;
+
+    color: rgb(10, 168, 24);
+}
+
+
+.boton2{
+
+    gap: 8px;
+
+    width: 250px;
+    height: 60px;
+
+    background:  rgb(0,16,41);
+    border-radius: 10px;
+    border-color: rgb(10, 168, 24);
+    
+    font-size: 28px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'VT323', monospace;
+    
+    line-height: 19px;
+    text-align: center;
+    
+    color: rgb(10, 168, 24);
+
+}
+
+.botonCopiar{
+    
+    visibility: hidden;
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    left: 660px;
+    top: 600px;
+
+    background:  rgb(0,16,41);
+    border-radius: 10px;
+    border-color: rgb(10, 168, 24);
+    
+    font-size: 28px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'VT323', monospace;
+    
+    line-height: 19px;
+    text-align: center;
+    
+    color: rgb(10, 168, 24);
+}
+
+.boton1:hover, .boton2:hover, .botonCopiar:hover{
+
+    font-size: 32px;
+
+}
+
+.textoOculto{
+   
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 650px;
+    font-size: 25px;
+     
+}
+
+.encriptado{
+    position: absolute;
+    font-size: 25px;
+    line-height: 150%;
+    background-color: rgb(0,16,41);
+    color:rgb(10, 168, 24);
+    border-radius: 10px;
+    border-color: rgb(10, 168, 24);
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+
+
+.imagen1{
+    position: absolute;
+    display: block;
+    width: 240px;
+    height: 200px;
+    margin-left: 665px;
+    margin-top: 200px;
+}
+
+.gradient{
+    position: absolute;
+    display: block;
+    width: 250px;
+    height: 220px;
+    margin-left: 660px;
+    margin-top: 185px;
+    background-image: linear-gradient(rgb(0,16,41),rgb(69,29,53),rgb(254,162,75));
+
+}
+
+
+.mensaje{
+    visibility: visible;
+    position: absolute;
+    width: 336px;
+    height: 122px;
+    left: 665px;
+    top: 400px;
+}    
+
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Encriptador</title>
+</head>
+<body>
+
+    <header>ENCRIPTADOR</header>
+ 
+    <div class="container">
+
+        <canvas class = "background" width = "1200"; height = "1050"></canvas>
+
+        
+        <div class = "texto">
+
+            <p class ="titulo">C:>Ingrese el texto en minúscula y sin acentos</p>            
+
+            <textarea class="textarea" name="" id="texto" cols="30" rows="10" placeholder="..."></textarea>
+
+        </div>
+
+
+        <div class="textoOculto">
+
+            <textarea class = "encriptado" name="" id="encriptado" cols="17" rows="15"></textarea>           
+         
+        </div>
+
+        <button class = "botonCopiar">COPIAR</button>
+
+        
+        <div class = "mensaje">
+
+            <div class = "titulo"><h3>Esperando el mensaje</h3></div>
+            
+        </div>
+
+        <div class="gradient"></div>
+
+        <img class = "imagen1" src="Assets/gatito.jpg" alt="Gatito">
+
+        <div class = "botones">
+
+            <button class = "boton1">ENCRIPTAR</button>
+            <button class = "boton2">DESENCRIPTAR</button>
+
+
+        </div>
+ 
+
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
